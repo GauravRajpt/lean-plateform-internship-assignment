@@ -1,6 +1,9 @@
 import React from 'react'
 import rocket from '../helper/rocket.png'
 import mobile from '../helper/mobile.png'
+import amazon from '../helper/amazon.png'
+import spotify from '../helper/spotify.png'
+import meta from '../helper/meta.png'
 
 function Main() {
   return (
@@ -20,6 +23,33 @@ function Main() {
     <div className='mobileImg'>
     <img src={mobile} alt='mobile'/>
     </div>
+    </div>
+
+    {/** experties section starts here */}
+
+    <div className='experties-section'>
+      <h3>Find the expertises from </h3>
+      <div className='companies'>
+      <img src={amazon} alt="companiesLogo" />
+      <img src={spotify} alt="companiesLogo" />
+      <img src={meta} alt="companiesLogo" />
+      </div>
+      <h3>Make your career growth in</h3>
+      <div className='experties'>
+    <div className='ui-ux'>
+    UX/UI Design
+    </div>
+      <div className='product-management'>
+      Product 
+Management
+      </div>
+      <div className='marketing'>
+      Marketing
+      </div>
+      <div className='datascience'>
+      Data Science
+      </div>
+      </div>
     </div>
     </section>
   )
