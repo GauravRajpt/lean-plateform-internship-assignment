@@ -177,7 +177,7 @@ Nav > h3 {
   width: 260px;
   height: 145px;
   border-radius: 16px;
-  
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,4 +201,94 @@ background: url("./helper/marketing.png");
 }
 .experties > .datascience{
 background: url("./helper/data.png");
+}
+
+/* clients comments section */
+
+.comments{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.clients-Comment{
+  padding:30px 0 30px 0;
+}
+.clients-Comment>h3{
+  color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 30px;
+}
+.comments>div{
+  background: url("./helper/Union.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-items: center;
+  color: #FFF;
+  width: 386px;
+height: 300.3px;
+position: relative;
+margin-bottom:60px;
+margin-top:40px;
+}
+.comments>div>h3{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 295px;
+  
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.comments>div>div{
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.comments>div>div>h2{
+  color: #FFF;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+display: flex;
+justify-content:flex-end;
+width: 150px;
+align-items: flex-end;
+}
+
+/* image of commenters */
+.commenters{
+ position: absolute;
+ bottom: -35px;
+ right: -5px;
+ width: 108.444px;
+height: 108.444px;
+
+}
+.title{
+  position: absolute;
+  bottom: -40px;
+  right: 120px;
+  color: #3D7196;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
 }
