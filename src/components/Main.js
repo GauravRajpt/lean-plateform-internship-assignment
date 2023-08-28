@@ -105,6 +105,24 @@ function Main() {
           </div>
         </div>
       </div>
+
+      {/**doubts section */}
+
+      <div className="doubts-section">
+        <h1>Let’s Clear your Doubts!</h1>
+        <div className="doubts">
+        What is the approval criteria to be a Mentor?         <span>+</span>
+        </div>
+        <div className="doubts">
+        How does Mentor Bridge work for Mentors?              <span>+</span>
+        </div>
+        <div className="doubts">
+        Can I charge fees of my choice?                       <span>+</span>
+        </div>
+        <div className="doubts">
+        Can I get guidance on how to be a mentor ?           <span>+</span>
+        </div>
+      </div>
     </section>
   );
 }
