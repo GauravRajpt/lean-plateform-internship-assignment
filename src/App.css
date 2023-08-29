@@ -24,6 +24,10 @@ Nav > h2 {
   font-size: 30px;
   cursor: pointer;
 }
+.Link{
+  color:#000;
+  text-decoration: none;
+}
 Nav > h3 {
   font-size: 25px;
   cursor: pointer;
@@ -395,4 +399,47 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-decoration-line: underline;
+}
+
+/* dashboard page */
+
+.sidenav{
+  width: 317px;
+  height: 817px;
+  background-color: #fff;
+border-right: 1px solid black;
+}
+
+.user{
+  display: flex;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px 0;
+}
+
+.user>h2{
+  color: #000;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.menu>li{
+  display: flex;
+  gap:20px;
+  
+  align-items: center;
+
+  flex-direction: row;
+  margin:10px 0 10px 70px;
+}
+.menu>li>h2{
+  color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
